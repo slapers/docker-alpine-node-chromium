@@ -6,7 +6,7 @@ ADD xvfb-chromium /usr/bin/xvfb-chromium
 
 RUN set -e \
   && echo " ------ INSTALLING PACKAGES ------" \
-    && apk -U --no-cache add udev chromium xvfb dbus ttf-freefont \
+    && apk -U --no-cache add udev chromium xvfb dbus ttf-freefont bash git \
   \
   && echo " ------ SETTING UP CHROMIUM ------" \
     && rm -f /usr/bin/chromium-browser \
