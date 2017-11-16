@@ -1,4 +1,4 @@
-FROM ymedlop/npm-cache-resource
+FROM mhart/alpine-node
 
 MAINTAINER stefan@lapers.be
 
